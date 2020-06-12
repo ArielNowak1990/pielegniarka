@@ -1,0 +1,349 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+    line-height: 1.2em;
+    margin: 0px 0px 0px 0px;
+    
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* TUTAJ KONCZY SIE RESET ERICKA MAYERA */
+
+#stronka{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: rgb(0, 0, 119);
+}
+#stronka a
+{
+    text-decoration: none;
+    color: inherit;
+}
+#menugorne{
+    width: 1200px;
+    height: 35px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    z-index: 2;
+    background-color: rgb(61, 61, 206);
+    color: white;
+    padding-top: 20px;
+    text-transform: uppercase;
+    margin-top: -2px;
+    text-decoration: none;
+    border-radius: 0px 0px 10px 10px;
+}
+#logo{
+    width: 1180px;
+    height: 500px;
+    margin: auto;
+
+}
+#calosc{
+    width: 1180px;
+    height: auto;
+    display: flex;
+    margin: auto;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+#menuboczne{
+    width: 20%;
+    padding: 15px;
+    background-color: rgb(218, 208, 208);
+    /* background: linear-gradient(left, #3d3dcec4 0%,#ffffff 20%, #ffffff 100%);
+    background: -moz-linear-gradient(left, #3d3dcec4 0%,#ffffff 20%, #ffffff 100%); 
+    background: -webkit-linear-gradient(left, #3d3dcec4 0%,#ffffff 20%, #ffffff 100%); 
+    background: linear-gradient(to left, #3d3dcec4 0%,#ffffff 20%, #ffffff 100%); 
+    border: 1px solid #3d3dcec4; */
+    border-radius: 2%;
+}
+
+#stopka{
+    width: 1180px;
+    height: auto;
+    margin: auto;
+    padding: 25px;
+    background-color: rgb(218, 208, 208);
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+}
+#duzelogo{
+    width: 1180px;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#zmiankafotek{
+    width: 1180px;
+    height: 200px;
+    margin: auto;
+    display: flex;
+}
+.fotkalogo{
+    width: 295px;
+    box-sizing: border-box;
+    opacity: 0.6;
+    border: 4px solid rgb(212, 195, 195);
+    position: relative;
+    color: black;
+}
+.fotkalogo img{
+    position: absolute;
+    z-index: -1;
+}
+.opis
+{
+    background-color: white;
+    display: block;
+    height: 45px;
+    width: 290;
+    margin-top: 150px;
+    opacity: 0.7;
+    font-size: 1.3em;
+    font-weight: bolder;
+    text-align: center;
+    display: none;
+    padding-top: 10px;
+}
+
+#tresc{
+    width: 80%;
+    height: 100%;
+
+}
+.header{
+    font-size: 1.3em;
+    width: 50%;
+    padding: 23px;
+    padding-top: 15px;
+    box-sizing: border-box;
+    line-height: 1.7em;
+}
+.text{
+    padding: 23px;
+    padding-top: 0px;
+    margin-top: -22px;
+    text-align: justify;
+    font-size: 1.1em;
+    line-height: 1.4em;
+    width: 1100px;
+    text-indent: 25px;
+}
+
+#FotoAdrianaNowak{
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.articles{
+    display: flex;
+    flex-wrap: wrap;
+}
+#uslugi {
+    font-size: 1.3em;
+    line-height: 1.7em;
+    font-weight: bold;
+    color: black;
+}
+#uslugi li{
+    font-size: 0.88em;
+    line-height: 1.4em;
+    height: 100%;
+    font-weight: normal;
+    color: rgb(0, 0, 119);
+    list-style-type: none;
+}
+#szukajka{
+    margin-top: -5px;
+}
+#loop{
+    margin-top: -6px;
+}
+#uslugi a:hover{
+    background-color: white;
+    margin-left: 5px;
+}
+#newsletter{
+    width: 570px;
+}
+#socialmedia{
+    width: 265px;
+    border-left: 2px solid white;
+    text-align: center;
+}
+#socialmedia img{
+    padding: 2px;
+    background-color: blue;
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#footkontakt{
+    width: 280px;
+    border-left: 2px solid white;
+    text-align: center;
+    line-height: 1.4em;
+    padding-left: 10px;
+}
+#dane{
+    width: 1180px;
+}
+#form_ask td{
+text-indent: 0px;
+
+}
+#form_ask td:nth-child(2n+1){
+    text-align: right;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    vertical-align: top;
+}
+#form_ask td:nth-child(2n){
+padding-left: 10px;
+padding-top: 5px;
+padding-bottom: 5px;
+}
+
+
+textarea{
+    margin-top: 5px;
+    resize: none;
+}
+#small{
+    font-size: 0.7em;
+}
+
+input:hover{
+    border: 2px solid blue;
+}
+input:focus {
+    border: 2px solid blue;
+}
+button#wyslij{
+    width: 20%;
+    font-size: 1.1em;
+    line-height: 1.3em;
+    background-color: rgb(218, 208, 208);
+    color: black;
+    font-weight: bold;
+    border-radius: 15%;
+    border: 2px solid white;  
+}
+button#wyslij:hover{
+    width: 20%;
+    font-size: 1.1em;
+    line-height: 1.3em;
+    background-color: blue;
+    color: white;
+    border-radius: 15%;
+    border: 2px solid black;  
+}
+.logotext{
+    display: flex;
+    width: 200px;
+}
+.hrefi{
+    margin-right: 10px;
+}
+.iconka{
+    margin-top: -5px;
+}
+.chmurka{
+    width: 700px;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 25px;
+    position: relative;
+    flex-direction: row-reverse;
+    margin-bottom: 45px;
+    vertical-align: auto;
+}
+.chmurka1{
+    width: 700px;
+    display: flex;
+    margin-left: 100px;
+    position: relative;
+    border-left: 1px solid black;
+    margin-top: -65px;
+    padding-left: 25px;
+}
+#napisz{
+
+    border: 1px solid black;
+    
+}
+.mailu{
+    border: 1px solid black;
+    margin-top: 25px;
+
+}
+#zadzwon{
+
+    line-height: 1.5em;
+    margin-left: 15px;
+    font-size: 1.2em;
+    border-left: 1px solid black;
+    padding-left: 20px;
+}
+.cloud{
+    width: 700px;
+    display: flex;
+    margin-left: 25px;
+    position: relative;
+    margin-bottom: 45px;
+    margin-top: -25px;
+    text-align: justify;
+}
+.cloud p{
+    margin-top: 10px;
+    width: 750px;
+
+}
